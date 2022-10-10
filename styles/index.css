@@ -163,7 +163,65 @@ nav ul li {
 }
 
 .container-box-3 {
-  width: 510px;
+  max-width: 520px;
+  width: 100%;
+  height: 370px;
+  background-color: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+.container-box-3 h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+  margin: 20px;
+  padding-top: 20px;
+}
+.container-box-3 h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  margin: 20px;
+}
+.container-box-3 p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #E8E8E8;
+  margin: 20px;
+}
+.container-box-3 button {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #5474FD;
+  border: none;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px 60px;
 }
 
 .section-4 {
@@ -187,13 +245,15 @@ nav ul li {
 }
 
 .container-box-4 {
-  width: 510px;
+  max-width: 520px;
+  width: 100%;
+  height: 370px;
   background-color: #232323;
   mix-blend-mode: normal;
   opacity: 0.9;
 }
 .container-box-4 h4 {
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -202,9 +262,10 @@ nav ul li {
   align-items: center;
   letter-spacing: 1.5px;
   color: #E8E8E8;
+  margin: 20px;
 }
 .container-box-4 h3 {
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -213,6 +274,7 @@ nav ul li {
   align-items: center;
   text-transform: uppercase;
   color: #FEFEFE;
+  margin: 20px;
 }
 .container-box-4 p {
   font-family: "Josefin Sans";
@@ -223,6 +285,7 @@ nav ul li {
   display: flex;
   align-items: center;
   color: #E8E8E8;
+  margin: 20px;
 }
 .container-box-4 button {
   font-family: "Aleo", serif;
@@ -237,6 +300,9 @@ nav ul li {
   color: #FFFFFF;
   background-color: #5474FD;
   border: none;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px 60px;
 }
 
 .section-5 {
@@ -266,9 +332,9 @@ nav ul li {
 }
 
 .section-5-flex {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
 }
 
 .flex-5-container {
@@ -310,45 +376,41 @@ footer {
   background-color: #232323;
   width: 100%;
   height: 271px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer-flex {
   max-width: 1200px;
   width: 100%;
-  margin: auto;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
 }
 .footer-flex h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
   letter-spacing: 3.36px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-bottom: 0;
 }
 .footer-flex p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 1.6px;
   color: #FFFFFF;
+  margin-bottom: 0;
 }
 .footer-flex ul {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
   padding-left: 0;
+  width: 200px;
 }
 .footer-flex ul li {
   font-family: "FontAwesome";
@@ -361,4 +423,7 @@ footer {
   text-align: center;
   letter-spacing: 1.6px;
   color: #E8E8E8;
+}
+.footer-flex ul .blue-icon {
+  color: #5474FD;
 }/*# sourceMappingURL=index.css.map */
