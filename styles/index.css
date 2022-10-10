@@ -119,6 +119,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 .flex-item-2 p {
   font-family: "Josefin Sans", sans-serif;
@@ -172,6 +173,12 @@ nav ul li {
   align-items: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav ul li:hover {
+  background-color: #7d94fb;
+  border-radius: 5px;
 }
 
 .section-1 {
@@ -211,6 +218,21 @@ nav ul li {
   letter-spacing: 1.6px;
   color: #E8E8E8;
 }
+.section-1-left button {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #5474FD;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
 
 .section-1-right {
   display: flex;
@@ -248,6 +270,7 @@ nav ul li {
 }
 .section-2-flex .icon-img {
   z-index: 5;
+  cursor: pointer;
 }
 .section-2-flex .shape-img {
   position: absolute;
@@ -255,6 +278,10 @@ nav ul li {
   left: 50%;
   transform: translate(-42%, -150%);
   z-index: 10;
+}
+.section-2-flex .icon-img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 .section-3 {
@@ -420,6 +447,10 @@ nav ul li {
   margin: 20px;
   margin-top: 50px;
   padding: 20px 60px;
+  cursor: pointer;
+}
+.container-box-4 button:hover {
+  background-color: #8ea1f1;
 }
 
 .section-5 {
@@ -541,7 +572,11 @@ footer {
   text-align: center;
   letter-spacing: 1.6px;
   color: #E8E8E8;
+  cursor: pointer;
 }
 .footer-flex ul .blue-icon {
   color: #5474FD;
+}
+.footer-flex ul li:hover {
+  transform: scale(1.4);
 }/*# sourceMappingURL=index.css.map */
