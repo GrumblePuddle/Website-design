@@ -130,6 +130,7 @@ header {
   letter-spacing: 2.8px;
   color: #FFFFFF;
 }
+
 .flex-item-2:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
@@ -172,9 +173,12 @@ nav ul li {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #FFFFFF;
   cursor: pointer;
   transition: 0.5s;
+}
+nav ul a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 nav ul li:hover {
   background-color: #7d94fb;
@@ -192,6 +196,7 @@ nav ul li:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-1-left {
@@ -233,6 +238,9 @@ nav ul li:hover {
   margin-top: 20px;
   cursor: pointer;
 }
+.section-1-left button:hover {
+  background-color: #8ea1f1;
+}
 
 .section-1-right {
   display: flex;
@@ -266,6 +274,7 @@ nav ul li:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   position: relative;
 }
 .section-2-flex .icon-img {
@@ -483,6 +492,7 @@ nav ul li:hover {
   max-width: 1200px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-5-container {
@@ -571,12 +581,57 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 1.6px;
-  color: #E8E8E8;
   cursor: pointer;
+}
+.footer-flex ul a {
+  color: #E8E8E8;
 }
 .footer-flex ul .blue-icon {
   color: #5474FD;
 }
 .footer-flex ul li:hover {
   transform: scale(1.4);
+}
+
+@media screen and (max-width: 800px) {
+  .search-bar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .section-1 {
+    height: 800px;
+  }
+  .section-1-left h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .section-1-left p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .section-1-left button {
+    display: block;
+    margin: auto;
+  }
+  .shape-img {
+    display: none;
+  }
+  .flex-5-container p {
+    width: 385px;
+  }
+  .footer-flex ul {
+    width: 300px;
+  }
+  .footer-flex ul li {
+    font-size: 42px;
+  }
+  nav .check-btn {
+    display: block;
+    font-size: 42px;
+    color: white;
+    line-height: 80px;
+  }
+  nav ul li {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
