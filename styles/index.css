@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans";
 }
 
+/*Title, searchbar and navigation*/
 header {
   background-image: url(../images/Header-background.png);
   background-position: center;
@@ -185,6 +186,7 @@ nav ul li:hover {
   border-radius: 5px;
 }
 
+/*Text paragraph and images*/
 .section-1 {
   background-image: url(../images/Section1-background.png);
   background-position: center;
@@ -260,6 +262,7 @@ nav ul li:hover {
   align-self: flex-end;
 }
 
+/*Three icons and shape between*/
 .section-2 {
   background-color: #333333;
   width: 100%;
@@ -293,6 +296,7 @@ nav ul li:hover {
   transition: all 0.5s ease-in-out;
 }
 
+/*Text container to the left*/
 .section-3 {
   background-image: url(../images/Section3-background.png);
   background-position: center;
@@ -377,6 +381,7 @@ nav ul li:hover {
   background-color: #8ea1f1;
 }
 
+/*Text container to the right*/
 .section-4 {
   background-image: url(../images/Section4-background.png);
   background-position: center;
@@ -462,6 +467,7 @@ nav ul li:hover {
   background-color: #8ea1f1;
 }
 
+/*Image and text container in the middle*/
 .section-5 {
   background-image: url(../images/Section5-background.png);
   background-position: center;
@@ -531,6 +537,7 @@ nav ul li:hover {
   color: #5474FD;
 }
 
+/*Text,links and icons for the footer*/
 footer {
   background-color: #232323;
   width: 100%;
@@ -593,6 +600,7 @@ footer {
   transform: scale(1.4);
 }
 
+/*For mobile use*/
 @media screen and (max-width: 800px) {
   .search-bar {
     margin-left: 20px;

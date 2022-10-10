@@ -5,7 +5,7 @@ body {
 
 
 
-
+/*Title, searchbar and navigation*/
 header {
     background-image: url(../images/Header-background.png);
     background-position: center;
@@ -172,7 +172,7 @@ nav {
 
 
 
-
+/*Text paragraph and images*/
 .section-1 {
     background-image: url(../images/Section1-background.png);
     background-position: center;
@@ -254,7 +254,7 @@ nav {
 
 
 
-
+/*Three icons and shape between*/
 .section-2 {
     background-color: #333333;
     width: 100%;
@@ -291,7 +291,7 @@ nav {
 
 
 
-
+/*Text container to the left*/
 .section-3 {
     background-image: url(../images/Section3-background.png);
     background-position: center;
@@ -379,7 +379,7 @@ nav {
 
 
 
-
+/*Text container to the right*/
 .section-4 {
     background-image: url(../images/Section4-background.png);
     background-position: center;
@@ -469,7 +469,7 @@ nav {
 
 
 
-
+/*Image and text container in the middle*/
 .section-5 {
     background-image: url(../images/Section5-background.png);
     background-position: center;
@@ -541,7 +541,7 @@ nav {
 
 
 
-
+/*Text,links and icons for the footer*/
 footer {
     background-color: #232323;
     width: 100%;
@@ -608,7 +608,7 @@ footer {
 
 
 
-
+/*For mobile use*/
 @media screen and (max-width: 800px) {
     .search-bar {
         margin-left: 20px;
