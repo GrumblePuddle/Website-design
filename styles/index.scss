@@ -347,7 +347,7 @@ nav {
     align-items: center;
     flex-direction: column;
     h2 {
-        font-family: 'Aleo';
+        font-family: 'Aleo', serif;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -371,25 +371,29 @@ nav {
 .flex-5-container {
     background-color: #333333;
     h4 {
-        font-family: 'Josefin Sans';
+        font-family: 'Josefin Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 26px;
-        display: flex;
-        align-items: center;
         text-transform: uppercase;
         color: #FEFEFE;
+        padding-left: 30px;
+        margin-bottom: 0;
+        padding-top: 20px;
     }
     p {
-        font-family: 'Josefin Sans';
+        font-family: 'Josefin Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
-        display: flex;
-        align-items: center;
         color: #E8E8E8;
+        
+        max-width: 570px;
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 0;
     }
     .fa-solid {
         font-family: 'FontAwesome';
@@ -397,8 +401,6 @@ nav {
         font-weight: 400;
         font-size: 36px;
         line-height: 26px;
-        display: flex;
-        align-items: center;
         color: #5474FD;
     }
 }
