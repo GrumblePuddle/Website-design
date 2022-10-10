@@ -1,0 +1,113 @@
+body {
+  font-family: "Josefin Sans";
+}
+
+header {
+  background-image: url(../images/Header-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 820px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-flex {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  background-color: #5474FD;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-1 {
+  background-image: url(../images/Section1-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 685px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-1-left {
+  width: 300px;
+}
+
+.section-1-right {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.image-top {
+  margin: 10px;
+}
+
+.section-2 {
+  background-color: #333333;
+  width: 100%;
+  height: 340px;
+}
+
+.section-2-flex {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-3 {
+  background-image: url(../images/Section3-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.section-4 {
+  background-image: url(../images/Section4-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.section-5 {
+  background-image: url(../images/Section5-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 731px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #232323;
+  width: 100%;
+  height: 271px;
+}/*# sourceMappingURL=index.css.map */
